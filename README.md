@@ -1,5 +1,5 @@
 # DataScience
-In order to keep track of my thoughts, ideas, insights during my quest to conquer the piles of data, i decided to setup an extra repo for this.
+In order to keep track of my thoughts, ideas, insights during my quest to conquer piles of data, i decided to setup an extra repo for this.
 
 <img
   src="/KITT_Cockpit.png"
