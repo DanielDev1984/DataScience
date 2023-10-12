@@ -1,10 +1,10 @@
-# Project: (How) does "the weather" affect Ride performance
+# Project: (How) does "the weather" affect Ride performance ?
 The aim of the project is to figure out if, and how, "the weather" (i.e. climate data in the likes of humidity, precipation, temperature, ...) affects the stats recorded on strava.
 
 <img
   src="./ProjectIdea.png"
   alt="Coordinate system showing a pinkish and a greenish line. The lines are annotated with weather icons"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 200">
 
 
 ## Data
@@ -13,7 +13,7 @@ To allow for comparison of different rides, segments have to be found that are r
 <img
   src="./Heatmap.png"
   alt="Strava heatmap"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 200">
 
 
 The idea is to pic rides that have a high overlap in segments
