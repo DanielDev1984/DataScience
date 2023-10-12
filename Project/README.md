@@ -2,7 +2,7 @@
 The aim of the project is to figure out if, and how, "the weather" (i.e. climate data in the likes of humidity, precipation, temperature, ...) affects the stats recorded on strava.
 
 <img
-  src="/ProjectIdea.png"
+  src="./ProjectIdea.png"
   alt="Coordinate system showing a pinkish and a greenish line. The lines are annotated with weather icons"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
