@@ -10,10 +10,10 @@ The aim of the project is to figure out if, and how, "the weather" (i.e. climate
 ## Data
 For the analysis "wheather" and ride data is needed. Hence this section is divided into a section that discusses the ride data and one discussing the "wheather" data. The raw data is compiled from these sources:
 
-* Historical Weatherdata from Germany (based on DWD API): https://brightsky.dev
-* Ride statistics: https://www.strava.com/api/v3/athletes/{athleteID}
+* ☔ Historical Weatherdata from Germany (based on DWD API): https://brightsky.dev
+* 🚲 Ride statistics: https://www.strava.com/api/v3/athletes/{athleteID}
 
-### Strava 🚲
+### Strava
 ---
 #### Which rides are relevant?
 To allow for comparison of different rides, segments have to be found that are ridden quite often. A side contraint that arises from the choosen weather-API (based on DWD API) limits the rides in question to germany only. For an initial overview the Strava heatmap helps a lot (https://www.strava.com/athlete/heatmaps):
@@ -30,7 +30,7 @@ By providing the heatmap, Strava already did a lot of the heavy lifting needed f
 
 #### Which stats are relevant?
 
-### BrightSky ☔
+### BrightSky
 ---
 
 ### Structure of the preprocessed (aka "wrangled") data
