@@ -42,16 +42,20 @@ The data is available as JSON-file
   "SegmentId": {
     "lat_long_Start": "00.00..°",
     "lat_long_End": "00.00..°"
-    "RideId": {
+    "ActivityId": {
       "timestamp": "YY-MM-DD HH:MM:SS"
       "Stats": {
-        "averageSpeed": "00.0 kph"
+        "averageSpeedKph": "00.00",
+        ...
       }
       "Weather": {
-        "avg_temperature": //the average temperature between start and end coordinates of the given segment
+        "avg_temperatureDegCelsius": "0.0", // the temperature in the middle of start- and end- coordinates
+        ...
       }
     }
+    ...
   }
+  ...
 }
 ```
 ## Methodology
