@@ -28,9 +28,6 @@ To allow for comparison of different rides, segments have to be found that are r
 
 By providing the heatmap, Strava already did a lot of the heavy lifting needed for identifying the segments / route in question, however:
 
-
-❗ Automated identification of these segments needs to be implemented
-
 #### Which stats are relevant?
 - averageSpeed: this metric is used quite often to determine the "performance" of a rider
 
@@ -39,26 +36,26 @@ By providing the heatmap, Strava already did a lot of the heavy lifting needed f
 #### Which "weather" data is relevant?
 
 ### Structure of the preprocessed (aka "wrangled") data
+The data is available as JSON-file
 ```json
-{ SegmentBasedData: {
-  SegmentId: {
+{ 
+  "SegmentId": {
     "lat_long_Start": "00.00..°",
     "lat_long_End": "00.00..°"
-    Ride: {
+    "RideId": {
       "timestamp": "YY-MM-DD HH:MM:SS"
-      Stats: {
+      "Stats": {
         "averageSpeed": "00.0 kph"
-      },
-      Weather: {
+      }
+      "Weather": {
         "avg_temperature": //the average temperature between start and end coordinates of the given segment
       }
     }
   }
 }
-}
 ```
 ## Methodology
-* Statics:
+* Statistics:
   * Test wheter ride data is statistically relevant (i.e.: carries the desired information and is representative)
 ## Results
 
