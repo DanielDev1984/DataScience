@@ -39,23 +39,28 @@ By providing the heatmap, Strava already did a lot of the heavy lifting needed f
 The data is available as JSON-file
 ```json
 { 
-  "SegmentId": {
-    "lat_long_Start": "00.00..°",
-    "lat_long_End": "00.00..°"
-    "ActivityId": {
-      "timestamp": "YY-MM-DD HH:MM:SS"
-      "Stats": {
-        "averageSpeedKph": "00.00",
-        ...
-      }
-      "Weather": {
-        "avg_temperatureDegCelsius": "0.0", // the temperature in the middle of start- and end- coordinates
-        ...
+  "segments": [
+    {
+      "segmentId": {
+        "lat_long_Start": "00.00..°",
+        "lat_long_End": "00.00..°",
+        "activities": [
+          {
+            "activityId": 12345,
+            "timestamp": "YY-MM-DD HH:MM:SS",
+            "rideStats":
+            {
+              "averageSpeedKph": "00.00"
+            },
+            "wheatherStats": 
+            {
+              "avg_temperatureDegCelsius": "0.0" // the temperature in the middle of start- and end- coordinates
+            }
+          }    
+        ]
       }
     }
-    ...
-  }
-  ...
+  ]
 }
 ```
 ## Methodology
