@@ -38,17 +38,15 @@ By providing the heatmap, Strava already did a lot of the heavy lifting and the 
 ### Structure of the preprocessed (aka "wrangled") data
 The data is available as JSON-file
 ```json
-[{"segId": [
-    {"segCoordinates": [
-      {"segStart": ["degLat", "degLon"]}, 
-      {"segEnd": ["degLat", "degLon"]}]}, 
-    {"activities": [
+[{ "segId": [
         {"activityId": [
-            {"timestamp": "YY-MM-DD HH:MM:SS"}, 
+            {"timestamp": "YYYY-MM-DDTHH:MM:SSZ"}, 
             {"rideStats": [
-                {"averageSpeedKph": 0.0}]}, 
-            {"weatherStats": [
-                {"avg_temperatureCelsius": 0.0}]}]}]}]}]
+                {"averrageSpeedKph": 00.00}]}, 
+                {"weatherStats": [
+                    {"pressure_msl": 1000.0}, 
+                    {"temperature": 00.0}]}]} 
+        {"segCoordinates": [{"segStart": ["lat", "lon"]}, {"segEnd": ["lat", "lon"]}]}], }]
 ```
 ## Methodology
 * Statistics:
